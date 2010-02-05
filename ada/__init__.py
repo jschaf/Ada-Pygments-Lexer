@@ -4,7 +4,7 @@
     :copyright: Copyright 2006-2010 by the Pygments team, see AUTHORS.
     :license: BSD, see LICENSE for details.
 
-    The rest of the work is placed in the public domain by Fish Software, Inc.
+    The rest of the work is placed in the public domain.
 """
 
 import re
