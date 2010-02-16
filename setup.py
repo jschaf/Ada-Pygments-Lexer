@@ -6,12 +6,11 @@ __author__ = 'Joe'
 
 setup(
     name='Ada Pygments Lexer',
-    version='0.1',
+    version='0.1.0',
     description=__doc__,
     author=__author__,
-    packages=['ada'],
-    entry_points='''
-    [pygments.lexers]
-    Ada = ada:AdaLexer
-    '''
+    packages=['ada_lexer'],
+    entry_points='''[pygments.lexers]
+adalexer = ada_lexer:AdaLexer
+'''
 )
